@@ -1,58 +1,20 @@
-.big {
-    font-size: 30px;
+body {
+    margin: 0px;
+    background: lightblue;
+    min-height: 100vh;
 }
 
-.line {
-    background: black;
-    display:block;
-    height: 1px;
-    width: 70%;
-    margin: auto;
-    
-}
-.About.line {
-    background: black;
-    display:block;
-    height: 1px;
-    width: 50%;
-    margin-left: 50px;
-    
-}
-content {
-    float:left;
-    width: 76%;
-    text-align: center;
-    
-}
-div {
+.Banner {
     text-align: center;
     font-family: serif;
     font-style: italic;
-    font-size: 30px;
+    font-size: 55px;
     background: lightblue;
     line-height: 100px;
+    color:palevioletred;
 }
 
-body {
-    background-color: lightblue;
-    margin: 0;
-}
-
-p {
-    color: black;
-    font-family:sans-serif;
-    margin: 50px;
-    font-size: 20px;
-}
-
-p.About {
-    font-family:sans-serif;
-    margin: 50px;
-    font-size: 20px;
-    text-align: left;
-}
-
-a {
+nav ul li a {
     display:block;
     padding: 14px 18px;
     background-color: #333;
@@ -62,11 +24,11 @@ a {
     font-size: 20px;
 }
 
-li {
+nav ul li {
     float: left;
 }
 
-ul {
+nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -75,19 +37,116 @@ ul {
     line-height: 70px;
 }
 
-li a:hover {
+nav ul li a:hover {
   background-color: black;
     color:palevioletred;
 }
-h1 {
+
+div.right {
+    margin: 2.5%;
+    width: 45%;
+    float: right;
+}
+
+div.left {
+    margin: 2.5%;
+    width: 45%;
+    float: left;
+}
+
+.line {
+    background: black;
+    display:block;
+    height: 1px;
+    width: 70%;
+}
+
+#logo {
+    margin-left: auto;
+    text-align: center;
+    width: 70%;
+    display: block;
+    margin-right: auto;
+}
+
+#logo2 {
+    text-align: center;
+    width: 47%;
+    display: block;
+    margin-right: auto;
+}
+
+#logo3 {
+    margin-left: auto;
+    text-align: center;
+    width: 47%;
+    display: block;
+}
+
+#logo4 {
+    text-align: center;
+    width: 47%;
+    display: block;
+    margin-right: auto;
+}
+
+#logo5 {
+    margin-left:auto;
+    text-align: center;
+    width: 100%;
+    display: block;
+    margin-right: auto;
+}
+
+#logo6 {
+    margin-left: auto;
+    text-align: center;
+    width: 80%;
+    display: block;
+    margin-right: auto;
+}
+
+.big {
+    font-size: 30px;
+}
+
+.Standardtxt {
+    font-size: 25px;
+    color: black;
+    font-family:sans-serif;
+    line-height: 1.5;
+}
+
+.Subtitle {
     color:palevioletred;
     font-style:italic;
-    font-size: 70px;
-    
+    font-size: 45px;
 }
-h1.About {
-    color:palevioletred;
-    font-style:normal;
-    font-size: 70px;
-    text-align: left;
+
+.Subtitle.about {
+    font-style: normal;
+}
+
+.Subtitle.contact {
+    font-style: normal;
+}
+
+.Standardtxt.bulletpoint, .bulletpoint li {
+    margin: 1.5%;
+    padding: 0;
+}
+
+footer {
+    bottom: 0;
+    display:block;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+}
+
+content {
+    width: 100%;
+    min-height: 80vh;
+    padding-bottom: 10px;
+    display: block;
 }
